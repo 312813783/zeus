@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link href="../css/bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="../css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="../css/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+    <link href="../css/animate.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <script src="../config.js"></script>
+    <base target="_blank">
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+        html,body{
+            margin: 0px;
+            width:100%;
+            height:100%;
+        }
+        .table>tbody>tr>td{
+            border: 0px;
+        }
+        .table>tbody>tr>th{
+            border: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="col-md-8">
+        <h1 style="font-family: 黑体">Mysql容器版</h1>
+        <div>
+            <ul class="nav nav-tabs" role="tablist" id="myTab">
+                <li role="presentation" class="active" data-id="tabContent1" ><a id="annualPackage" name="annualPackage"  href="#" target="_parent" >包年包月</a></li>
+                <li role="presentation" data-id="tabContent2"><a href="#" name="payQuantity" target="_parent">按量付费</a></li>
+            </ul>
+        </div>
+        <br/>
+
+        <div id="box">
+            <iframe src="annualPackage.html" id='iframe' name='iframe' frameborder="0" width="100%" height="500px"></iframe>
+        </div>
+
+    </div>
+    <div class="col-md-4" style="height: 100%;">
+        <div  class="col-md-12" style="height: 20%;"></div>
+        <div  class="col-md-12" style="height: 60%;background-color: #F4F6F9">
+            <br>
+            <p class="text-left" style="font-family: 黑体;font-size: 14px;font-weight: bold">当前配置</p>
+            <table class="table" id="tablea">
+                <tr><th><p class="text-left">数据库:</p></th><td><p id="p1" class="text-left">mysql数据库</p></td></tr>
+                <tr><th><p class="text-left">地域:</p></th><td><p id="p2" class="text-left"></p></td></tr>
+                <tr><th><p class="text-left">版本:</p></th><td><p id="p3" class="text-left"></p></td></tr>
+                <tr><th><p class="text-left">系列:</p></th><td><p id="p4" class="text-left"></p></td></tr>
+                <tr><th><p class="text-left">规格:</p></th><td><p id="p5" class="text-left">cpu</p></td></tr>
+                <tr><th><p class="text-left">数量:</p></th><td><p id="p6" class="text-left">1台</p></td></tr>
+                <tr><th><p class="text-left">时长:</p></th><td><p id="p7" class="text-left"></p></td></tr>
+                <tr><td></td><td><button type="button" id="but_dg" class="btn btn-primary">订购</button></td></tr>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="../js/core/common/jquery.min.js"></script>
+<script src="../js/core/common/bootstrap.min.js?v=3.3.5"></script>
+<script src="../js/plugins/layer/layer/layer.js"></script>
+<script src="../js/plugins/bootstrap-table/bootstrap-table.min.js"></script>
+<script src="../js/plugins/bootstrap-table/bootstrap-table-mobile.min.js"></script>
+<script src="../js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+<script src="../js/plugins/layer/laydate/laydate.js"></script>
+<script src="../js/static/jquery.cookie.js"></script>
+<script src="../js/static/common.js"></script>
+<script src="../js/core/common/jquery.form.js"></script>
+<script src="../js/core/common/collection.js"></script>
+<script src="../js/core/common/util.js"></script>
+<script src="../js/core/common/zeus.js"></script>
+<script src="../js/static/service/serviceDeployment.js"></script>
+<script src="../js/static/service/annualpack.js"></script>
+</html>

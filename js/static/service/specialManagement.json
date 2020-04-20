@@ -1,0 +1,52 @@
+{
+    "success": true,
+    "code": "100000",
+    "message": "request successfully",
+    "entity": {
+        "total": 3,
+        "list": [{
+            "serviceName": "集群",
+            "series": "12",
+            "paasUserName": "12",
+            "cluster": "12",
+            "partition": "12",
+            "hostList": "12",
+            "operTime": "2020-04-14T15:06:51.000+0000",
+            "status": "12"
+        },{
+            "serviceName": "集群",
+            "series": "12",
+            "paasUserName": "12",
+            "cluster": "12",
+            "partition": "12",
+            "hostList": "12",
+            "operTime": "2020-04-14T15:06:51.000+0000",
+            "status": "12"
+        },{
+            "serviceName": "集群",
+            "series": "12",
+            "paasUserName": "12",
+            "cluster": "12",
+            "partition": "12",
+            "hostList": "12",
+            "operTime": "2020-04-14T15:06:51.000+0000",
+            "status": "12"
+        }],
+        "pageNum": 1,
+        "pageSize": 1,
+        "size": 1,
+        "startRow": 1,
+        "endRow": 1,
+        "pages": 3,
+        "prePage": 0,
+        "nextPage": 2,
+        "isFirstPage": true,
+        "isLastPage": false,
+        "hasPreviousPage": false,
+        "hasNextPage": true,
+        "navigatePages": 8,
+        "navigatepageNums": [1, 2, 3],
+        "navigateFirstPage": 1,
+        "navigateLastPage": 3
+    }
+}
